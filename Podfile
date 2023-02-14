@@ -10,4 +10,14 @@ target 'MessengerClone' do
 # GoogleSingIn
 pod 'GoogleSignIn'
 
+# Firebase
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'Firebase/Analytics'
+pod 'Firebase/Crashlytics'
+
+
+
 end
