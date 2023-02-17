@@ -9,10 +9,28 @@
 /* Begin PBXBuildFile section */
 		4E9BB462299B375E005EE69A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB461299B375E005EE69A /* AppDelegate.swift */; };
 		4E9BB464299B375E005EE69A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB463299B375E005EE69A /* SceneDelegate.swift */; };
-		4E9BB466299B375E005EE69A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB465299B375E005EE69A /* ViewController.swift */; };
+		4E9BB466299B375E005EE69A /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB465299B375E005EE69A /* ConversationsViewController.swift */; };
 		4E9BB469299B375E005EE69A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9BB467299B375E005EE69A /* Main.storyboard */; };
 		4E9BB46B299B375F005EE69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9BB46A299B375F005EE69A /* Assets.xcassets */; };
 		4E9BB46E299B375F005EE69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9BB46C299B375F005EE69A /* LaunchScreen.storyboard */; };
+		4E9BB488299FD1AB005EE69A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E9BB487299FD1AB005EE69A /* GoogleService-Info.plist */; };
+		4E9BB48A299FD62E005EE69A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB489299FD62E005EE69A /* LoginViewController.swift */; };
+		4E9BB48C299FD652005EE69A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB48B299FD652005EE69A /* RegisterViewController.swift */; };
+		4E9BB48E299FD686005EE69A /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB48D299FD686005EE69A /* PhotoViewerViewController.swift */; };
+		4E9BB490299FD6BF005EE69A /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB48F299FD6BF005EE69A /* VideoPlayerViewController.swift */; };
+		4E9BB493299FD700005EE69A /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB492299FD700005EE69A /* NewConversationViewController.swift */; };
+		4E9BB495299FD722005EE69A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB494299FD722005EE69A /* ProfileViewController.swift */; };
+		4E9BB498299FDAD0005EE69A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB497299FDAD0005EE69A /* Extensions.swift */; };
+		4E9BB49A299FDD2B005EE69A /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB499299FDD2B005EE69A /* ProfileViewModel.swift */; };
+		4E9BB49C299FDDB1005EE69A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB49B299FDDB1005EE69A /* SearchResult.swift */; };
+		4E9BB49E299FDDD3005EE69A /* ConversationsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB49D299FDDD3005EE69A /* ConversationsModels.swift */; };
+		4E9BB4A0299FDDF3005EE69A /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB49F299FDDF3005EE69A /* ChatModels.swift */; };
+		4E9BB4A2299FDF3D005EE69A /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4A1299FDF3D005EE69A /* ConversationTableViewCell.swift */; };
+		4E9BB4A4299FE13B005EE69A /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4A3299FE13B005EE69A /* NewConversationCell.swift */; };
+		4E9BB4A6299FE2A5005EE69A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4A5299FE2A5005EE69A /* DatabaseManager.swift */; };
+		4E9BB4A8299FE3E7005EE69A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4A7299FE3E7005EE69A /* ChatViewController.swift */; };
+		4E9BB4AA299FE75B005EE69A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4A9299FE75B005EE69A /* StorageManager.swift */; };
+		4E9BB4AC299FE800005EE69A /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9BB4AB299FE800005EE69A /* LocationPickerViewController.swift */; };
 		FDB5D8373F48CC0A65260DE0 /* Pods_MessengerClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856CFB09555CC904581EE9AF /* Pods_MessengerClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +38,29 @@
 		4E9BB45E299B375E005EE69A /* MessengerClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9BB461299B375E005EE69A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E9BB463299B375E005EE69A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E9BB465299B375E005EE69A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E9BB465299B375E005EE69A /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		4E9BB468299B375E005EE69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E9BB46A299B375F005EE69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9BB46D299B375F005EE69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9BB46F299B375F005EE69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9BB487299FD1AB005EE69A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E9BB489299FD62E005EE69A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4E9BB48B299FD652005EE69A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4E9BB48D299FD686005EE69A /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		4E9BB48F299FD6BF005EE69A /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		4E9BB492299FD700005EE69A /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		4E9BB494299FD722005EE69A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4E9BB497299FDAD0005EE69A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4E9BB499299FDD2B005EE69A /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		4E9BB49B299FDDB1005EE69A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		4E9BB49D299FDDD3005EE69A /* ConversationsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsModels.swift; sourceTree = "<group>"; };
+		4E9BB49F299FDDF3005EE69A /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		4E9BB4A1299FDF3D005EE69A /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		4E9BB4A3299FE13B005EE69A /* NewConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
+		4E9BB4A5299FE2A5005EE69A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		4E9BB4A7299FE3E7005EE69A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4E9BB4A9299FE75B005EE69A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		4E9BB4AB299FE800005EE69A /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
 		856CFB09555CC904581EE9AF /* Pods_MessengerClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessengerClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F098A46C0914F9EDA0E469D9 /* Pods-MessengerClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerClone.release.xcconfig"; path = "Target Support Files/Pods-MessengerClone/Pods-MessengerClone.release.xcconfig"; sourceTree = "<group>"; };
 		F866C4CC48BD613C42DFADC7 /* Pods-MessengerClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessengerClone.debug.xcconfig"; path = "Target Support Files/Pods-MessengerClone/Pods-MessengerClone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,17 +99,12 @@
 		4E9BB460299B375E005EE69A /* MessengerClone */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB487299FD1AB005EE69A /* GoogleService-Info.plist */,
 				4E9BB485299FCD7D005EE69A /* Resources */,
 				4E9BB484299FCD6B005EE69A /* ViewModels */,
 				4E9BB483299FCD04005EE69A /* Models */,
 				4E9BB482299FCCEA005EE69A /* Views */,
 				4E9BB481299FCCDC005EE69A /* Controllers */,
-				4E9BB461299B375E005EE69A /* AppDelegate.swift */,
-				4E9BB463299B375E005EE69A /* SceneDelegate.swift */,
-				4E9BB465299B375E005EE69A /* ViewController.swift */,
-				4E9BB467299B375E005EE69A /* Main.storyboard */,
-				4E9BB46A299B375F005EE69A /* Assets.xcassets */,
-				4E9BB46C299B375F005EE69A /* LaunchScreen.storyboard */,
 				4E9BB46F299B375F005EE69A /* Info.plist */,
 			);
 			path = MessengerClone;
@@ -82,6 +113,14 @@
 		4E9BB481299FCCDC005EE69A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB465299B375E005EE69A /* ConversationsViewController.swift */,
+				4E9BB496299FD93F005EE69A /* Login */,
+				4E9BB48D299FD686005EE69A /* PhotoViewerViewController.swift */,
+				4E9BB492299FD700005EE69A /* NewConversationViewController.swift */,
+				4E9BB48F299FD6BF005EE69A /* VideoPlayerViewController.swift */,
+				4E9BB494299FD722005EE69A /* ProfileViewController.swift */,
+				4E9BB4A7299FE3E7005EE69A /* ChatViewController.swift */,
+				4E9BB4AB299FE800005EE69A /* LocationPickerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -89,6 +128,10 @@
 		4E9BB482299FCCEA005EE69A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB486299FCEC4005EE69A /* Storyboards */,
+				4E9BB46A299B375F005EE69A /* Assets.xcassets */,
+				4E9BB4A1299FDF3D005EE69A /* ConversationTableViewCell.swift */,
+				4E9BB4A3299FE13B005EE69A /* NewConversationCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +139,10 @@
 		4E9BB483299FCD04005EE69A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB49D299FDDD3005EE69A /* ConversationsModels.swift */,
+				4E9BB49F299FDDF3005EE69A /* ChatModels.swift */,
+				4E9BB49B299FDDB1005EE69A /* SearchResult.swift */,
+				4E9BB499299FDD2B005EE69A /* ProfileViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,8 +157,31 @@
 		4E9BB485299FCD7D005EE69A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB461299B375E005EE69A /* AppDelegate.swift */,
+				4E9BB463299B375E005EE69A /* SceneDelegate.swift */,
+				4E9BB497299FDAD0005EE69A /* Extensions.swift */,
+				4E9BB4A5299FE2A5005EE69A /* DatabaseManager.swift */,
+				4E9BB4A9299FE75B005EE69A /* StorageManager.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E9BB486299FCEC4005EE69A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BB467299B375E005EE69A /* Main.storyboard */,
+				4E9BB46C299B375F005EE69A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4E9BB496299FD93F005EE69A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BB489299FD62E005EE69A /* LoginViewController.swift */,
+				4E9BB48B299FD652005EE69A /* RegisterViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		938C2F56CE86981C654749E6 /* Pods */ = {
@@ -192,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9BB46E299B375F005EE69A /* LaunchScreen.storyboard in Resources */,
+				4E9BB488299FD1AB005EE69A /* GoogleService-Info.plist in Resources */,
 				4E9BB46B299B375F005EE69A /* Assets.xcassets in Resources */,
 				4E9BB469299B375E005EE69A /* Main.storyboard in Resources */,
 			);
@@ -246,9 +317,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9BB466299B375E005EE69A /* ViewController.swift in Sources */,
+				4E9BB48A299FD62E005EE69A /* LoginViewController.swift in Sources */,
+				4E9BB48C299FD652005EE69A /* RegisterViewController.swift in Sources */,
+				4E9BB493299FD700005EE69A /* NewConversationViewController.swift in Sources */,
+				4E9BB4AC299FE800005EE69A /* LocationPickerViewController.swift in Sources */,
+				4E9BB4A0299FDDF3005EE69A /* ChatModels.swift in Sources */,
+				4E9BB4A6299FE2A5005EE69A /* DatabaseManager.swift in Sources */,
+				4E9BB466299B375E005EE69A /* ConversationsViewController.swift in Sources */,
+				4E9BB49E299FDDD3005EE69A /* ConversationsModels.swift in Sources */,
+				4E9BB490299FD6BF005EE69A /* VideoPlayerViewController.swift in Sources */,
+				4E9BB498299FDAD0005EE69A /* Extensions.swift in Sources */,
+				4E9BB4AA299FE75B005EE69A /* StorageManager.swift in Sources */,
 				4E9BB462299B375E005EE69A /* AppDelegate.swift in Sources */,
+				4E9BB4A4299FE13B005EE69A /* NewConversationCell.swift in Sources */,
+				4E9BB49A299FDD2B005EE69A /* ProfileViewModel.swift in Sources */,
+				4E9BB495299FD722005EE69A /* ProfileViewController.swift in Sources */,
 				4E9BB464299B375E005EE69A /* SceneDelegate.swift in Sources */,
+				4E9BB49C299FDDB1005EE69A /* SearchResult.swift in Sources */,
+				4E9BB48E299FD686005EE69A /* PhotoViewerViewController.swift in Sources */,
+				4E9BB4A8299FE3E7005EE69A /* ChatViewController.swift in Sources */,
+				4E9BB4A2299FDF3D005EE69A /* ConversationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,8 +490,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +500,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Torres.MessengerClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,8 +523,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +533,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Torres.MessengerClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
