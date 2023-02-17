@@ -63,6 +63,11 @@
 		4E9BB460299B375E005EE69A /* MessengerClone */ = {
 			isa = PBXGroup;
 			children = (
+				4E9BB485299FCD7D005EE69A /* Resources */,
+				4E9BB484299FCD6B005EE69A /* ViewModels */,
+				4E9BB483299FCD04005EE69A /* Models */,
+				4E9BB482299FCCEA005EE69A /* Views */,
+				4E9BB481299FCCDC005EE69A /* Controllers */,
 				4E9BB461299B375E005EE69A /* AppDelegate.swift */,
 				4E9BB463299B375E005EE69A /* SceneDelegate.swift */,
 				4E9BB465299B375E005EE69A /* ViewController.swift */,
@@ -74,13 +79,47 @@
 			path = MessengerClone;
 			sourceTree = "<group>";
 		};
+		4E9BB481299FCCDC005EE69A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4E9BB482299FCCEA005EE69A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E9BB483299FCD04005EE69A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E9BB484299FCD6B005EE69A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E9BB485299FCD7D005EE69A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		938C2F56CE86981C654749E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F866C4CC48BD613C42DFADC7 /* Pods-MessengerClone.debug.xcconfig */,
 				F098A46C0914F9EDA0E469D9 /* Pods-MessengerClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
