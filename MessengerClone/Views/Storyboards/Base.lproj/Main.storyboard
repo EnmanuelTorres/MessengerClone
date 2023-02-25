@@ -48,6 +48,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="Vy8-4g-PZs"/>
+                    <connections>
+                        <outlet property="tableView" destination="qSu-mQ-TY3" id="dtO-Wj-UPr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rnF-9g-fb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,7 +78,7 @@
         <scene sceneID="IlW-ef-VbR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c6f-to-cqH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chats" id="IIS-0r-K6Y"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="message" catalog="system" id="IIS-0r-K6Y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="mhg-gD-AVJ">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
@@ -94,7 +97,7 @@
         <scene sceneID="LQM-rm-BEY">
             <objects>
                 <navigationController id="rWa-Cl-8Jv" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="Ajo-Gj-HQ4"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle" catalog="system" id="Ajo-Gj-HQ4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Zce-UT-Khe">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -109,6 +112,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="message" catalog="system" width="128" height="116"/>
+        <image name="person.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
