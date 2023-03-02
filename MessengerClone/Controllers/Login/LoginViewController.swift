@@ -184,7 +184,8 @@ final class LoginViewController: UIViewController {
                         return
                     }
                     
-                    UserDefaults.standard.set("\(firstName) \(lastName)", forKey: "name")
+                   UserDefaults.standard.set("\(firstName) \(lastName)", forKey: "name")
+                    
 
                 case .failure(let error):
                     print("Failed to read data with error \(error)")
@@ -192,11 +193,12 @@ final class LoginViewController: UIViewController {
             })
             
             UserDefaults.standard.set(email, forKey: "email")
-            
+        
             
             
             print("Logged In User: \(user)")
             strongSelf.navigationController?.dismiss(animated: true)
+           
         }
     }
     

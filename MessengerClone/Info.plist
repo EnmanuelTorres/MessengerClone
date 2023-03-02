@@ -5,10 +5,9 @@
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
+				<string>fb1284875682125568</string>
 				<string>com.googleusercontent.apps.518876299529-jjc4crndrmml16169rb0vl2smai8bav4</string>
 			</array>
 		</dict>
@@ -32,5 +31,16 @@
 			</array>
 		</dict>
 	</dict>
+	<key>FacebookAppID</key>
+	<string>1284875682125568</string>
+	<key>FacebookClientToken</key>
+	<string>717ee80fb233cbd8031ee61d3ac8212e</string>
+	<key>FacebookDisplayName</key>
+	<string>MessengerClone</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
 </dict>
 </plist>

@@ -43,8 +43,9 @@ import JGProgressHUD
          view.addSubview(tableView)
          view.addSubview(noConversationsLabel)
          setupTableView()
-         startListeningForConversations()
+     //    startListeningForConversations()
      }
+    
      
      private func startListeningForConversations() {
          guard let email = UserDefaults.standard.value(forKey: "email") as? String else {
@@ -147,7 +148,7 @@ import JGProgressHUD
      override func viewDidAppear(_ animated: Bool) {
          super.viewDidAppear(animated)
          validateAusth()
-         
+         startListeningForConversations()
      }
 
      private func validateAusth(){

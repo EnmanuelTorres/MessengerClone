@@ -80,6 +80,7 @@ final class ChatViewController: MessagesViewController {
         button.setSize(CGSize(width: 35, height: 35), animated: false)
         button.setImage(UIImage(systemName: "paperclip"), for: .normal)
         button.onTouchUpInside {[weak self] _ in
+            
             self?.presentInputActionSheet()
         }
         

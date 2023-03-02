@@ -104,13 +104,9 @@ final class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Log In"
+        title = "Create Account"
         view.backgroundColor = .systemBackground
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Register",
-                                                            style: .done,
-                                                            target: self,
-                                                            action: #selector(didTapRegister))
         
         logginButton.addTarget(self,
                                action: #selector(registerButtonTapped),
@@ -244,6 +240,7 @@ final class RegisterViewController: UIViewController {
                     }
                 })
                 strongSelf.navigationController?.dismiss(animated: true)
+                
             }
         }
         
@@ -261,11 +258,7 @@ final class RegisterViewController: UIViewController {
         present(alert, animated: true)
     }
     
-    @objc private func didTapRegister(){
-        let vc = RegisterViewController()
-        vc.title = "Create Account"
-        navigationController?.pushViewController(vc, animated: true)
-    }
+
 
 }
 

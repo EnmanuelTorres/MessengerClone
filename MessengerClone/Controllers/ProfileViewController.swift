@@ -48,6 +48,7 @@ final class ProfileViewController: UIViewController {
                 }
                 UserDefaults.standard.setValue(nil, forKey: "email")
                 UserDefaults.standard.setValue(nil, forKey: "name")
+               
                 
                 // Log Out facebook
                 FBSDKLoginKit.LoginManager().logOut()
@@ -80,6 +81,8 @@ final class ProfileViewController: UIViewController {
         tableView.dataSource = self
         tableView.tableHeaderView = createTableHeader()
     }
+   
+    
     
     func createTableHeader() -> UIView? {
         guard let email = UserDefaults.standard.value(forKey: "email") as? String else {

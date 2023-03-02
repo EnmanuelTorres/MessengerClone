@@ -60,6 +60,7 @@ class ConversationTableViewCell: UITableViewCell {
                                         y: userNameLabel.bottom + 10,
                                         width: contentView.width - 20 - userImageView.width,
                                         height: (contentView.height-20)/2)
+    
         
     }
     
