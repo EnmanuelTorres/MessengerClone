@@ -10,7 +10,7 @@ You can create a real-time chat with other users, send pictures, videos, and loc
 - Email/Pass Registration / Log In
 - Photo Messages
 - Video Messages
-- Real Time Conversations
+- Real-Time Conversations
 - Location Messages
 - Search for Users
 - Deleting Conversations
@@ -18,7 +18,7 @@ You can create a real-time chat with other users, send pictures, videos, and loc
 - Dark Mode Support
 
 ## Content
-![mainpicture](https://user-images.githubusercontent.com/106885120/222846831-be26bb96-e4a4-4483-9f90-095218bb8845.jpeg)
+![messengerClone](https://github.com/EnmanuelTorres/Thoughts/assets/106885120/2eb18102-2938-4785-a9c4-9ea7612cdff8)
 
 DEMO 1 | DEMO 2 |
 -------|--------|
